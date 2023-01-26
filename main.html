@@ -10,11 +10,11 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<p>List of all transcations</p>
 
-  <table class="table">
-  <thead class="bg-dark text-light">
-    <tr>
+  <table class="table table-responsive">
+	  <caption>List of all transcations</caption>
+  <thead class="table-dark">
+    <tr class="table-hover">
       <th scope="col">#</th>
       <th scope="col">From</th>
       <th scope="col">To</th>
@@ -22,30 +22,31 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="table-hover">
       <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
       <td>1000</td>
     </tr>
-    <tr>
+    <tr class="table-hover">
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>1500</td>
     </tr>
-    <tr>
+    <tr class="table-hover">
       <th scope="row">3</th>
       <td >Jack</td>
 		<td>Thornton</td>
       <td>2000</td>
     </tr>
-	<hr>
-	<tr class="bg-light">
-	  <th  colspan="3" class="text-right" id="total">Total</th>
-      <th>4000</th>
-    </tr>
-  </tbody>
+ </tbody>
+	<tfoot class="table-light">
+		<tr id="total">
+		  <th  colspan="3" class="text-right">Total</th>
+	      <th>4000</th>
+	    </tr>
+	</tfoot> 
 </table>
     <script type="text/javascript" src="./script.js">
 </script>
