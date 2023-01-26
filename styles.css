@@ -4,3 +4,8 @@
 .text-right{
 	text-align:right !important;
 }
+
+tr:hover{
+	color:white;
+	background-color:black;
+}
